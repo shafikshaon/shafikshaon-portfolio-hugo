@@ -1,0 +1,72 @@
+baseURL = "/"
+title = "Shafik"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Mohd. Shafikur Rahman"
+googleAnalytics = "XXX"
+disqusShortname = "XXX"
+
+[Privacy]
+
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[Author]
+    name = "Mohd. Shafikur Rahman"
+    profile = "shafik.xyz"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Shafik"
+    description = ""
+    github = "https://github.com/shafikshaon"
+    gitlab = "https://gitlab.com/shafikshaon"
+    linkedin = "https://linkedin.com/in/shafikshaon/"
+    twitter = "https://twitter.com/shafikshaon"
+    stackoverflow = "https://stackoverflow.com/users/4751726/"
+    email = "shafikshaon@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Monday, December 31, 2019"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
