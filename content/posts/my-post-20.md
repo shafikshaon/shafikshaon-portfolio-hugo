@@ -2,6 +2,7 @@
 title: "My Post 20"
 description: "Description of my awesome project."
 date: 2019-05-04
+publishDate: 2019-05-04
 author: "Michael Henderson"
 tags: [
     "go",
