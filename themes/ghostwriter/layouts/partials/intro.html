@@ -6,7 +6,6 @@
 
     {{ if .Params.tags }}
         <p class="post-tags">
-            <span>Tagged:</span>
             {{ $len := len .Params.tags }}
             {{ range $index, $tag := .Params.tags }}
                 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
