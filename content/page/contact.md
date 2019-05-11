@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2019-05-04T00:41:09+06:00
-draft: true
+draft: false
 ---
 A Fast and Flexible Static Site Generator built with love by [bep](https://github.com/bep), [spf13](http://spf13.com/) and [friends](https://github.com/gohugoio/hugo/graphs/contributors) in [Go][].
 

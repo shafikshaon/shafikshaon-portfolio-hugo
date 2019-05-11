@@ -37,7 +37,7 @@ disqusShortname = "XXX"
     shareTwitter = true
     shareFacebook = true
     shareLinkedIn = true
-    dateFormat = "Monday, December 31, 2019"
+    dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
     exponeaJsUrl = ""
@@ -54,18 +54,18 @@ disqusShortname = "XXX"
 
   [[menu.main]]
       name = "Blog"
-      weight = 1
       url = "/"
+      weight = 1
 
   [[menu.main]]
       name = "Me"
-      weight = 2
       url = "/page/me/"
+      weight = 2
 
   [[menu.main]]
       name = "Contact"
-      weight = 3
       url = "/page/contact/"
+      weight = 3
 
 #  [[menu.main]]
 #      weight = 1
