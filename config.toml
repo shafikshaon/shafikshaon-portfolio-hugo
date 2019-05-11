@@ -56,19 +56,19 @@ disqusShortname = "XXX"
       name = "Blog"
       weight = 1
       identifier = "blog"
-      url = "/posts/"
+      url = "/"
 
   [[menu.main]]
       name = "Me"
       weight = 2
       identifier = "me"
-      url = "/me/"
+      url = "/page/me/"
 
   [[menu.main]]
       name = "Contact"
       weight = 3
       identifier = "contact"
-      url = "/contact/"
+      url = "/page/contact/"
 
 #  [[menu.main]]
 #      weight = 1
