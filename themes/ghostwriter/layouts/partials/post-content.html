@@ -1,7 +1,14 @@
-<div class="post-content clearfix" itemprop="articleBody">
-    {{ with .Params.Image }}
-        <img class="post-featured-image" src="{{ . }}">
-    {{ end }}
+<div class="container ss-container">
+    <main role="main">
+        <div class="jumbotron post-detail">
 
-    {{ .Content }}
+            {{ partial "post-header.html" . }}
+            {{ partial "post-tags.html" . }}
+
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+            {{ partial "post-footer.html" . }}
+        </div>
+    </main>
 </div>

@@ -1,5 +1,12 @@
 {{ range .Site.Menus.main.ByWeight }}
-    <li class="site-nav-item">
-        <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
-    </li>
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="{{ .URL }}">{{ .Name }}</a>
+</li>
 {{ end }}
+
+<!--<li class="nav-item" id="light-dark-mode">-->
+<!--    <span class="nav-link js-scroll-trigger">-->
+<!--        <i class="fas fa-adjust"> Dark</i>-->
+<!--    </span>-->
+<!--</li>-->
+

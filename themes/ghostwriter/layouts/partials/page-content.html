@@ -1,7 +1,15 @@
-<div class="post-content clearfix">
-    {{ with .Params.Image }}
-        <img class="post-featured-image" src="{{ . }}">
-    {{ end }}
-
-    {{ .Content }}
+<div class="container ss-container">
+    <main role="main">
+        <div class="jumbotron page">
+            <h3>{{ .Title }}</h3>
+            {{ if .Description }}
+            <p class="post-description">{{ .Description }}</p>
+            {{ end }}
+            <div class="posts">
+                <div class="page-content">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </main>
 </div>

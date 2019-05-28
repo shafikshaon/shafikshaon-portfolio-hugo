@@ -18,7 +18,7 @@ disqusShortname = "XXX"
 
 [Author]
     name = "Mohd. Shafikur Rahman"
-    profile = "shafik.xyz"
+    profile = "https://shafik.xyz"
 
 [Taxonomies]
     tag = "tags"
@@ -31,6 +31,7 @@ disqusShortname = "XXX"
     gitlab = "https://gitlab.com/shafikshaon"
     linkedin = "https://linkedin.com/in/shafikshaon/"
     twitter = "https://twitter.com/shafikshaon"
+    facebook = "https://facebook.com/shafikshaon"
     stackoverflow = "https://stackoverflow.com/users/4751726/"
     email = "shafikshaon@gmail.com"
     opengraph = true
